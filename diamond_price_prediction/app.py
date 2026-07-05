@@ -3,7 +3,7 @@ import joblib
 import time
 import pandas as pd
 import numpy as np
-model=joblib.load("diamond_price_prediction/model.pkl")
+model = joblib.load("model.pkl")
 
 st.set_page_config(
     page_title="Diamond Price Prediction",
