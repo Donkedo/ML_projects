@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 try:
-    model = joblib.load("diamond_prediction_model.pkl")
+    model = joblib.load("model.pkl")
 except Exception as e:
     st.error(f"Error loading model: {e}")
     st.stop()
