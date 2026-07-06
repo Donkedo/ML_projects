@@ -1,5 +1,6 @@
-import streamlit as st
+from pathlib import Path
 import joblib
+import streamlit as st
 import pandas as pd
 import time
 
@@ -9,8 +10,12 @@ st.set_page_config(
     layout="centered"
 )
 
+
 try:
-    model = joblib.load("model.pkl")
+    BASE_DIR = Path(__file__).parent
+    MODEL_PATH = BASE_DIR / "model.pkl"
+    
+    model = joblib.load(MODEL_PATH)
 except Exception as e:
     st.error(f"Error loading model: {e}")
     st.stop()
