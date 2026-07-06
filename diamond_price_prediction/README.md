@@ -148,3 +148,4 @@ The application will open automatically in your default web browser.
 **Aaman Manzar**
 
 GitHub: https://github.com/donkedo
+App   : https://mlprojects-aaman.streamlit.app/
