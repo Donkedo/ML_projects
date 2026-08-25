@@ -418,10 +418,14 @@ CLASS_LABELS = list(model.classes_)
 
 # Sidebar information
 with st.sidebar:
-    st.subheader("Model")
-    st.write(f"**Classes:** {', '.join(map(str, CLASS_LABELS))}")
-    st.write(f"**Features:** {len(FEATURE_ORDER)}")
-    st.info("SHAP and counterfactual search run only after prediction. Nothing expensive is initialized at startup.")
+    st.header("TEAM: Kuchu Puchu")
+    st.subheader("Members:")
+    st.write("Riya Patil(2025CSB068)")
+    st.write("Pravesh(2025CSB070)")
+    st.write("Niraj Kumar Singh(2025CSB084)")
+    st.write("Ayan Mansoori(2025CSB088)")
+    st.write("Shivam Gupta(2025CSB100)")
+    st.write("Aaman Manzar(2025ETB032)")
 
 # Defaults
 numeric_defaults = X_train[NUMERIC_FEATURES].median(numeric_only=True)
