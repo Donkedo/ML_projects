@@ -17,15 +17,6 @@ This repository contains end-to-end machine learning projects covering:
 The goal of this repository is to document my machine learning journey and showcase practical applications of ML algorithms on real-world datasets.
 
 ---
-
-## Projects
-
-### 1. Car Price Prediction using Linear Regression
-
-#### Objective
-
-Predict vehicle prices using various car-related features such as brand, model, fuel type, transmission, and condition.
-
 #### Workflow
 
 * Data Inspection
@@ -83,6 +74,37 @@ Planned additions:
 * NLP Projects
 
 ---
+## Projects
+
+### 1. Car Price Prediction using Linear Regression
+
+#### Objective
+
+Predict vehicle prices using various car-related features such as brand, model, fuel type, transmission, and condition.
+
+### 2. Income Predictor
+
+#### Objective
+
+A Machine Learning web application built with Python, Scikit-learn, and Streamlit that predicts whether an individual's annual income is likely to be greater than $50,000 based on demographic and employment-related information.
+
+### 3.Customer Churn Prediction
+
+#### Objective
+
+A Machine Learning web application built using Streamlit that predicts whether a customer is likely to churn based on demographic information, subscribed services, billing details, and contract information.
+
+### 4. Breast Cancer Prediction using Machine Learning Classification
+
+#### Objective
+
+This project focuses on predicting whether a breast tumor is Benign or Malignant using multiple machine learning classification algorithms. Various models were trained, evaluated, and compared to identify the best-performing classifier.
+
+### 5. Diamond Price Prediction
+
+#### Objective
+
+A Machine Learning web application built with Streamlit that predicts the price of a diamond based on its physical characteristics. The model is trained using XGBoost Regressor and deployed with Streamlit for an interactive user experience.
 
 ## Author
 
